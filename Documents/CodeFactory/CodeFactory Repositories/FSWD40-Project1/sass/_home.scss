@@ -1,0 +1,177 @@
+/* HAS TO BE REMOVED */
+
+body {
+
+background-color: $thirdColor;
+}
+
+main {
+    background-color: $secondaryColor;
+    margin: 2em auto;
+}
+
+
+/* NAVBAR STYLING */
+
+.gridContainerNav {
+    height: 2em;
+    font-family: $textFont;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    grid-gap: 10px;
+    background-color: black;
+    padding: 0.5em;
+}
+
+.gridItemNav {
+    background-color: green;
+    text-align: center;
+    font-size: 1.5em;
+    position: relative;
+    display: inline-block;
+}
+
+.gridItemNav:hover {
+    background-color: red;
+}
+
+.gridItemNav a {
+    text-decoration: none;
+    color: white;
+}
+
+/*
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* MAIN CONTENT STYLING */
+
+.gridContainerMainLandingPage {
+    height: 80vh;
+    width: 100%;
+    font-family: $textFont;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1em;
+}
+
+.gridItemMainLandingPage {
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 1.5em;
+    position: relative;
+    display: inline-block;
+}
+
+/* Grid Container Right Side Landing Page */
+
+.gridContainerRightSide {
+    background-color: purple;
+    /*height: 80vh;*/
+    width: 100%;
+    font-family: $textFont;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1em;
+}
+
+.gridItemRightSide {
+    background-color: cyan;
+    text-align: center;
+    font-size: 1.5em;
+    position: relative;
+    display: inline-block;
+
+}
+
+.MainCircle {
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    border-radius: 80%;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 3em auto;
+}
+
+/* Team Member Cricles */
+
+.gridContainerTeamInfo {
+    background-color: pink;
+    /*height: 80vh;*/
+    width: 100%;
+    font-family: $textFont;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /*grid-gap: 1em;*/
+}
+
+.gridItemTeamMembers {
+    background-color: red;
+    text-align: center;
+    font-size: 1.5em;
+    position: relative;
+    margin: 0.5em 0 0.5em 0;
+   /* display: inline-block;*/
+
+}
+
+.SmallCircle {
+    background-color: white;
+    width: 2em;
+    height: 2em;
+    border-radius: 80%;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+
+/* FOOTER STYLING */
+
+footer {
+    text-align: center;
+    height: 2em;
+    background-color: black;
+    color: white;
+    font-size: 12pt;
+    font-family: $textFont;
+
+}
